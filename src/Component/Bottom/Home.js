@@ -11,6 +11,13 @@ export default function Home( {navigation}) {
               //color={"lightgreen"}
               onPress={() => navigation.navigate('Login')}
             />
+
+              <Button
+              title="Go to Registration"
+              //style={[{height: '30px', width : '100px'}]}
+              //color={"lightgreen"}
+              onPress={() => navigation.navigate('Registration')}
+            />
     </View>
   )
 }
