@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function LoginScene( {navigation} ) {
+export default function Setting() {
   return (
     <View>
-      <Text>LoginScene</Text>
+      <Text>Setting</Text>
     </View>
   )
 }
